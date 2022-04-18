@@ -619,7 +619,7 @@ a {
     padding: 0;
   }
   .frame__left-img {
-    padding: 0px;
+    padding-left: 50px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -724,6 +724,120 @@ a {
 
 .blok__left-img {
   padding-left: 10px;
+}
+
+@media (max-width: 1140px) {
+  .container {
+    width: 1020px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .container {
+    width: 920px;
+  }
+}
+
+@media (max-width: 940px) {
+  .container {
+    width: 820px;
+  }
+}
+
+@media (max-width: 840px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 740px) {
+  .container {
+    width: 620px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 520px;
+  }
+  .blok .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .blok__left {
+    text-align: center;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blok__right {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blok__left-title {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blok__left-text {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 420px;
+  }
+}
+
+@media (max-width: 440px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
 }
 
 html {
