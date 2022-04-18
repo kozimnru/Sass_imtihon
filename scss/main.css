@@ -771,9 +771,31 @@ a {
   left: 167px;
   top: 2134px;
   border-radius: 3px;
-  border: none;
+  border: 2px solid #228bda;
   background-color: #228bda;
   color: white;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.blok__left-btn:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  width: 220px;
+  left: 167px;
+  top: 2134px;
+  border-radius: 3px;
+  border: 2px solid #228bda;
+  background-color: white;
+  color: #228bda;
 }
 
 .blok__left-img {
