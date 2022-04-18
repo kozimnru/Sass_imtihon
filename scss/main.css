@@ -230,6 +230,7 @@ a {
   width: 220px;
   left: 128px;
   top: 508px;
+  border: none;
   border-radius: 3px;
   background-color: #228BDA;
   color: white;
@@ -389,6 +390,10 @@ a {
   .container {
     width: 90%;
   }
+}
+
+.frame {
+  padding-top: 30px;
 }
 
 .frame__title {
@@ -644,6 +649,10 @@ a {
   .container {
     width: 90%;
   }
+}
+
+.blok {
+  padding-top: 50px;
 }
 
 .blok__right, .blok__left {
