@@ -21,8 +21,9 @@ border: none;
 border-radius: 3px;
 background-color: #228BDA;
 color: white;
+transition: 3s;
 }
-&__left-btn{
+&__left-btn:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
