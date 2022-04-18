@@ -31,6 +31,28 @@
   text-align: left;
 }
 
+.navbar__left-btn:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 42px;
+  width: 141px;
+  left: 243px;
+  top: 28px;
+  background-color: #7ab2e9;
+  border-radius: 3px;
+  border: 1px solid #C4D0DA;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
 .navbar__right, .navbar__left {
   width: 50%;
   display: -webkit-box;
